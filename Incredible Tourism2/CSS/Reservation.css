@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Fasthand&family=Lobster&family=Roboto+Condensed&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+    /* font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    max-width:1460px;
+    margin:0 auto;
+}
+.header_logo{
+    width:20%;
+    margin:0 auto;
+    background-color: aqua;
+}
+.header_logo img{
+    width:100%;
+    height:120px;
+    display: block;
+}
+/* Banner section Starts */
+#banner .banner_box{
+    height:580px;
+    background-color: aqua;
+    position: relative;
+    border-radius:10px 5px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 80%);
+}
+#banner .banner_box img{
+    width:100%;
+    height:100%;
+    filter:brightness(50%);
+    border-radius:10px 5px;
+}
+#banner .banner_box .trainText{
+    position: absolute;
+    top:250px;
+    left:430px;
+}
+#banner .banner_box .trainText h1{
+    color:white;
+    font-size:60px;
+    letter-spacing:1px;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    transition: all 1s ease .2s; 
+}
+#banner .banner_box .trainText h1:hover{
+   text-shadow: 2px 2px 3px rgb(0 0 0 / 80%);
+   transform: scale(2);
+}
+/* Banner section Ends */
+#form_section .form_box{
+    background-color:rgba(130, 127, 118, 0.2) ;
+    margin:40px 0px;
+    padding: 10px 0px;
+}
+#form_section .form_box .inner_con{
+    width:50%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,rgba(80, 35, 226, 0.8),rgb(220, 20, 60));
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 80%);
+}
+#form_section .form_box .inner_con h2{
+    padding:20px 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight:100;
+    font-size:15px;
+    word-spacing: 2px;
+}
+#form_section .form_box .inner_con h1{
+    font-family: 'Roboto', sans-serif;
+    padding:0px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px rgb(0 0 0 / 80%);
+    letter-spacing:2px;
+}
+#form_section .form_box .form_con{
+    width:50%;
+    background-color:whitesmoke;
+    margin: 0 auto;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+#form_section .form_box .form_con .form-group{
+    margin:20px 0px;
+}
+#form_section .form_box .form_con .form-group label{
+   color:gray;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   padding:15px 20px;
+}
+#form_section .form_box .form_con .form-group input[type="text"],input[type="email"],input[type="number"],input[type="date"]{
+    width:35%;
+    padding:10px 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid crimson;
+    background-color:whitesmoke;
+}
+.form-group h3{
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid crimson;
+    border-top: 2px solid crimson;
+}
+button{
+    width:100%;
+    padding:10px 0px;
+    text-align: center;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    font-size:18px;
+    color: whitesmoke;
+    background-image: linear-gradient(to right,rgba(80, 35, 226, 0.8),rgb(220, 20, 60));
+}

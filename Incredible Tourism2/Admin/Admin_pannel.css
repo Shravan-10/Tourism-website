@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Fasthand&family=Lobster&family=Roboto+Condensed&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Fasthand&family=Lobster&family=Roboto+Condensed&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+/* Google- font */
+/*  font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif; 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+    max-width:1460px;
+    /* background-color: aqua; */
+}
+#header {
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #204969;
+    position: sticky;
+}
+#header .header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    COLOR: whitesmoke;
+}
+
+.header h1 span {
+    font-size: 20px;
+    color: aquamarine;
+    text-shadow: 1px 2px 8px black;
+}
+
+.header button {
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 1px solid whitesmoke;
+    transition: background-color 1s;
+    border-radius: 10px;
+    font-weight: 550;
+}
+
+.header button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+/* Header section Ends  */
+
+/* link-section start  */
+   #link_box .container .link_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:20px 10px;
+    margin:50px 0px;
+   }
+   #link_box .container h1{
+    text-align:center;
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif; 
+   }
+   #link_box .container .link_container ul{
+    list-style:none;
+    padding:10px 20px;
+    display: block;
+    box-shadow: 0px 0px 5px black;
+   }
+   #link_box .container .link_container ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-size:28px;
+    color: crimson;
+   }
+   #link_box .container .link_container ul li a i{
+    font-size:25px;
+    padding:0px 10px;
+    color: blueviolet;
+   }
+   #link_box .container .link_container ul li a:hover{
+    color: blueviolet;
+   }
